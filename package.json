@@ -1,0 +1,28 @@
+{
+  "name": "torus-apidoc-cli",
+  "version": "1.0.3",
+  "description": "Create API document with Markdown format document",
+  "main": "index.js",
+  "scripts": {
+    "test": "torus-apidoc-cli -b doc/api.md -o dist/ -t 'Copyright &copy; Example1 Inc.'"
+  },
+  "author": "axcelwork",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axcelwork/torus-apidoc-cli.git"
+  },
+  "bin": {
+    "torus-apidoc-cli": "bin/torus-apidoc-cli"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "ejs": "^2.6.1",
+    "ejs-cli": "^2.0.1",
+    "html-pdf": "^2.2.0",
+    "jsdom": "^15.1.1",
+    "marked": "^0.6.2",
+    "ncp": "^2.0.0",
+    "npm": "^6.6.0"
+  }
+}

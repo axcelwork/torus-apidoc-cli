@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <title><%- include( '../tmp/title' ) %></title>
+    <meta name="robots" content="noindex,follow" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" type="text/css" media="screen,print">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen,print">
+    <link rel="stylesheet" href="assets/css/hightlight/railscasts.css" type="text/css" media="screen,print">
+
+</head>
+<body id="pagetop">
+    <div id="wrapper" class="is_grid">
+        <div id="print_name"><h1><%- include( '../tmp/title' ) %></h1></div>
+        <div id="nav">
+            <h1><%- include( '../tmp/title' ) %></h1>
+            <ul>
+                <%- include( '../tmp/nav' ) %>
+            </ul>
+
+            <p id="copy"><%- include( '../tmp/copy' ) %></p>
+        </div>
+        <div id="contents">
+            <%- include( '../tmp/markdown' ) %>
+        </div>
+
+    </div>
+    <p id="copy"><%- include( '../tmp/copy' ) %></p>
+
+    <script src="assets/js/highlight.pack.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
