@@ -6,7 +6,7 @@ Torus-apidoc-cli
 [license]: https://github.com/axcelwork/torus-apidoc-cli/blob/master/LICENSE
 
 ## Overview
-Markdown形式のドキュメントでAPIドキュメントを作成することができる[Torus-apidoc](https://github.com/axcelwork/torus-apidoc)`のコマンドライン版です。
+Markdown形式のドキュメントでAPIドキュメントを作成することができる[Torus-apidoc](https://github.com/axcelwork/torus-apidoc)のコマンドライン版です。
 
 ## Requirement
 このツールは以下のnpmモジュールを使用しています。<br>

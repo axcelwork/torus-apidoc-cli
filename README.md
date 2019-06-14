@@ -6,7 +6,7 @@ Torus-apidoc-cli
 [license]: https://github.com/axcelwork/torus-apidoc-cli/blob/master/LICENSE
 
 ## Overview
-This is a command-line version of [Torus-apidoc] (https://github.com/axcelwork/torus-apidoc) `that can create API documents with Markdown format documents.
+This is a command-line version of [Torus-apidoc] (https://github.com/axcelwork/torus-apidoc) that can create API documents with Markdown format documents.
 
 ## Requirement
 This tool uses the following npm module.<br>
